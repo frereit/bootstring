@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 def clamp(n, smallest, largest):
     return max(smallest, min(n, largest))
 

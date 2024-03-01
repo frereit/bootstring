@@ -4,16 +4,16 @@ build-backend = "hatchling.build"
 
 [project]
 name = "bootstring"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
   { name="Frederik Reiter", email="hi@frereit.de" },
 ]
 description = "Bootstring encoding and decoding (RFC 3492)"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
     "Operating System :: OS Independent",
 ]
 

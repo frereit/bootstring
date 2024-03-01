@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from collections.abc import Sequence
 import bootstring
 from bootstring.generalized_variable_length_integers import (

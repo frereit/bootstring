@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from .encode import encode
 from .decode import decode
 
