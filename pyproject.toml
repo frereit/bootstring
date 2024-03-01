@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bootstring"
+version = "1.0.0"
+authors = [
+  { name="Frederik Reiter", email="hi@frereit.de" },
+]
+description = "Bootstring encoding and decoding (RFC 3492)"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "mypy",
+    "black",
+]
+
+[project.urls]
+Homepage = "https://github.com/frereit/bootstring"
+Issues = "https://github.com/frereit/bootstring/issues"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]
